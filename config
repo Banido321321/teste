@@ -45,6 +45,16 @@
             "ProxyIP": "186.233.118.216",
             "ProxyPort": "80",
             "Info": "Proxy"
+        },
+{
+            "Name": "TIM Expirado e Vivo Socks",
+            "FLAG": "tim",
+            "Payload": "[delay_split]HTTP/1.1 200 WebSocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "186.233.118.216",
+            "ProxyPort": "80",
+            "Info": "Proxy"
         }
 
     ]
