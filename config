@@ -1,5 +1,5 @@
 {
-    "Version": "1.0.2",
+    "Version": "1.0.3",
     "ReleaseNotes": "⚠️MANTENHA SEMPRE APLICATIVO ATUALIZADO⚠️\r\n \ 📶OPERADORA DISPONIVEL📶\r\n 🟣VIVO  | 🔵TIM \r\n===============================\r\nUMA DICA, RECOMENDO TER DOIS CHIP\r\n CASO UMA REDE CAIA VOCE TEM A OUTRA\r\n PARA SE CONECTAR TRANQUILAMENTE\r\nSUPORTE: Prix Telecom\r\n===============================",
     "Sms": "https://raw.githubusercontent.com/Banido321321/teste/refs/heads/main/UrlSms",
     "UrlUpdate": "https://raw.githubusercontent.com/Banido321321/teste/refs/heads/main/config",
@@ -37,9 +37,9 @@
       "Info": "Proxy"
 		},
 		{
-            "Name": "VIVO SECURITY 1",
+            "Name": "TIM Expirado e Vivo Socks",
             "FLAG": "vivo",
-            "Payload": "[delay_split] ACL / HTTP/1.1[crlf]Host:[random= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]#[split]ACL / HTTP/1.1[crlf]Host: vivo.com.br[crlf][split]ACL / HTTP/1.1[crlf]Host: topspeed.c6bank.app[crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]@talkera[crlf][crlf]#PATCH /cdn-cgi/trace HTTP/1.1[lf]Host: mtls.sandbox.c6bank.com.br[lf][lf][split][lf][lf]PCVPN / HTTP/1.1[lf]Host: [host][lf]Upgrade: websocket[lf][lf]#[split]ACL / HTTP/1.1[crlf]Host: api.cloudflare.com[crlf][split][crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]@kekeke[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "186.233.118.216",
@@ -49,11 +49,11 @@
 {
             "Name": "TIM Expirado e Vivo Socks",
             "FLAG": "tim",
-            "Payload": "[delay_split]HTTP/1.1 200 WebSocket[crlf][crlf]",
+            "Payload": "[delay_split]HTTP/1.1 200[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "186.233.118.216",
-            "ProxyPort": "80",
+            "ProxyIP": "",
+            "ProxyPort": "",
             "Info": "Proxy"
         }
 
